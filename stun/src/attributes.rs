@@ -93,7 +93,7 @@ impl AttrType {
 /// Attributes from comprehension-required range (0x0000-0x7FFF).
 pub const ATTR_MAPPED_ADDRESS: AttrType = AttrType(0x0001); // MAPPED-ADDRESS
 pub const ATTR_USERNAME: AttrType = AttrType(0x0006); // USERNAME
-pub const ATTR_MESSAGE_INTEGRITY: AttrType = AttrType(0x0008); // MESSAGE-INTEGRITY
+pub const ATTR_MESSAGE_INTEGRITY: AttrType = AttrType(0x001C); // MESSAGE-INTEGRITY
 pub const ATTR_ERROR_CODE: AttrType = AttrType(0x0009); // ERROR-CODE
 pub const ATTR_UNKNOWN_ATTRIBUTES: AttrType = AttrType(0x000A); // UNKNOWN-ATTRIBUTES
 pub const ATTR_REALM: AttrType = AttrType(0x0014); // REALM
@@ -145,7 +145,7 @@ pub const ATTR_REQUESTED_ADDRESS_FAMILY: AttrType = AttrType(0x0017); // REQUEST
 pub const ATTR_ORIGIN: AttrType = AttrType(0x802F);
 
 /// Attributes from RFC 8489 STUN.
-pub const ATTR_MESSAGE_INTEGRITY_SHA256: AttrType = AttrType(0x001C); // MESSAGE-INTEGRITY-SHA256
+pub const ATTR_MESSAGE_INTEGRITY_SHA256: AttrType = AttrType(0x0008); // MESSAGE-INTEGRITY-SHA256
 pub const ATTR_PASSWORD_ALGORITHM: AttrType = AttrType(0x001D); // PASSWORD-ALGORITHM
 pub const ATTR_USER_HASH: AttrType = AttrType(0x001E); // USER-HASH
 pub const ATTR_PASSWORD_ALGORITHMS: AttrType = AttrType(0x8002); // PASSWORD-ALGORITHMS
